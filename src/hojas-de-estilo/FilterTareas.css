@@ -1,0 +1,43 @@
+.container-filter-tareas{
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    cursor: pointer;
+}
+
+#miCheckbox {
+    display: none;
+}
+
+.icon-tarea-filter {
+    background-color: #10053b;
+    padding: 16px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 15px;
+    cursor: pointer;
+  }
+  
+  .filter-tarea{
+    background-color: rgb(169, 115, 163);
+    padding: 5px 35px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 50px;
+    margin-top: 15px;
+  }
+  
+  .boton-filter {
+    padding: 5px 20px;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background: #371e32;
+    color: #fff;
+    text-transform: capitalize;
+    margin-right: 5%;
+  }
